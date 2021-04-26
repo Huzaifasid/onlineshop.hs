@@ -1,0 +1,91 @@
+
+.navbar {
+    background-color: #D32F2F !important;
+}
+.nav-link {
+    color: #fff !important;
+    font-weight: bold !important;
+}
+.navbar-brand img{
+    width: 100px;
+}
+.fa-cart-plus,.fa-user-circle-o{
+    font-size: 32px !important; 
+}
+
+.fa-truck,.fa-headphones,.fa-thumbs-up {
+    font-size: 50px !important;
+    margin-right: 10px;
+    color: #D32F2F !important;
+}
+.card1,.card2,.card3 {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 2px 4px 5px gray;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.mainCard{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+h3{
+    color: #D32F2F !important;
+}
+.newArrivals{
+    margin-top: 50px;
+
+}
+.card{
+    width: 250px;
+    height: auto !important;
+    margin-bottom: 5px;
+}
+.card-text{
+    font-weight: bold;
+}
+
+.btn-primary{
+    width: 100%;
+    background-color: #D32F2F;
+}
+
+.heading{
+    text-align: center;
+    font-weight: bold;
+    color: #D32F2F;
+    margin: 20px;
+}
+.heading h1{
+    text-shadow: 2px 2px 4px black;
+}
+.footer {
+    width: 100%;
+    background-color: #D32F2F;
+    height: 70px;
+
+}
+.footer div {
+    text-align: center;
+    align-items: center;
+}
+h4{
+    color: white;
+}
+
+
+
+
+
+@media screen and (max-width:600px){
+.card1,.card2,.card3{
+    width: 100%;
+}
+
+}
